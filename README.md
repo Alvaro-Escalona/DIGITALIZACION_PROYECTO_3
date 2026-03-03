@@ -32,26 +32,3 @@ Interfaz Fluida: Utiliza hilos (threading) para que la aplicación no se bloquee
 4. Estructura: Selecciona "Bloque continuo" para un texto fluido o "Separado página por página" para mantener la división original.
 
 5. Ejecución: Pulsa "Traducir todo" y sigue el progreso en la ventana emergente.
-
-# Cómo probarlo (Instrucciones de uso)
-Para ejecutar el código en tu ordenador, sigue estos pasos:
-
-Paso 1: Instalar las dependencias
-Necesitas tener Python instalado. Abre una terminal en la carpeta de tu proyecto y ejecuta el siguiente comando para instalar las librerías necesarias:
-
-pip install customtkinter tkinterdnd2 Pillow PyPDF2 deep-translator reportlab python-docx pymupdf
-
-Paso 2: Ejecutar la aplicación en el entorno que prefiera o lanza el script con el comando:
-
-python traductorv4.py
-
-# Realizar una prueba completa
-Carga: Busca un archivo PDF en tu equipo y arrástralo dentro de la ventana del programa.
-
-Selección: Haz doble clic sobre el icono del PDF que aparece en la lista. Marca solo un par de páginas para que la prueba sea rápida y dale a "Guardar selección".
-
-Destino: Pulsa en "Elegir carpeta de salida" y selecciona, por ejemplo, tu Escritorio.
-
-Traducción: Elige el idioma (ej. de Inglés a Español), selecciona "Exportar a Word" y pulsa el botón verde "Traducir todo".
-
-Verificación: Espera a que la barra de progreso llegue al 100% y revisa tu Escritorio para ver el archivo generado.
