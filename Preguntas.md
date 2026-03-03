@@ -36,3 +36,81 @@ Los datos temporales se eliminan automáticamente al cerrar la aplicación, ya q
 Esto hace que el ciclo de vida del dato sea:
 
 Entrada → Procesamiento → Exportación → Eliminación automática
+
+<h2>¿Qué estrategia sigues para garantizar la consistencia e integridad de los datos?</h2>
+
+En el proyecto aplico varias estrategias:
+
+1. Validación de entrada
+
+Solo se permiten archivos .pdf.
+
+Se verifica que las rutas existan.
+
+Se controla que haya páginas seleccionadas antes de traducir.
+
+2. Control de errores
+
+Uso de bloques try/except para evitar que el programa se bloquee.
+
+Si falla una traducción, se conserva el texto original.
+
+3. Organización estructurada
+
+Uso de diccionarios (cola_archivos) para asociar cada PDF con sus páginas seleccionadas.
+
+Las páginas se ordenan antes de procesarse para evitar desorden.
+
+4. Separación por bloques
+
+El texto se divide en bloques pequeños antes de traducirse para:
+
+Evitar errores por límite de caracteres.
+
+Mantener coherencia en la traducción.
+
+5. Progreso controlado
+
+Se lleva un conteo de bloques traducidos para asegurar que todo el contenido se procesa correctamente.
+
+<h2> Si no trabajas con datos, ¿cómo podrías incluir una funcionalidad que los gestione de forma eficiente? </h2>
+
+Aunque mi aplicación ya trabaja con datos temporales, podría ampliarse incluyendo:
+
+Base de datos SQLite para:
+
+Guardar historial de traducciones.
+
+Almacenar fecha, idioma, nombre del archivo.
+
+Permitir reabrir trabajos anteriores.
+
+Sistema de logs para:
+
+Guardar en un archivo .log:
+
+Errores de traducción.
+
+Archivos procesados.
+
+Tiempo de ejecución.
+
+Caché de traducciones para:
+
+Guardar frases ya traducidas para:
+
+Evitar repetir llamadas al traductor.
+
+Aumentar velocidad.
+
+Reducir consumo de API.
+
+Sistema de usuarios para:
+
+Permitir perfiles con:
+
+Configuraciones guardadas.
+
+Idioma preferido.
+
+Carpeta de salida predeterminada.
