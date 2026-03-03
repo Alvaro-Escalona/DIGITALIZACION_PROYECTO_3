@@ -1,6 +1,6 @@
 # Ciclo de vida del dato (5b):
 
- <h2> ¿Cómo se gestionan los datos desde su generación hasta su eliminación en tu proyecto?
+ <h2> ¿Cómo se gestionan los datos desde su generación hasta su eliminación en tu proyecto? </h2>
 
 En mi proyecto, los datos se gestionan siguiendo un ciclo claro:
 
