@@ -1,14 +1,13 @@
 # Ciclo de vida del dato (5b):
 
- <h2> ¿Cómo se gestionan los datos desde su generación hasta su eliminación en tu proyecto? </h2>
+ <h2> ¿Cómo se gestionan los datos desde su generación hasta su eliminación en tu proyecto?</h2>
 
 En mi proyecto, los datos se gestionan siguiendo un ciclo claro:
 
 <h3>1 Entrada (Generación del dato) </h3> 
 Los datos se generan cuando el usuario carga archivos PDF. El programa extrae el texto de cada página seleccionada utilizando librerías como PyPDF2 y PyMuPDF (fitz).
 
-<h3>2 Procesamiento 
-</h3> 
+<h3>2 Procesamiento</h3> 
 <h5>El texto extraído se: </h5>
 
 Divide en párrafos.
@@ -117,3 +116,42 @@ Configuraciones guardadas.
 Idioma preferido.
 
 Carpeta de salida predeterminada.
+
+# Almacenamiento en la nube (5f):
+
+<h2>Si tu software utiliza almacenamiento en la nube, ¿cómo garantizas la seguridad y disponibilidad de los datos?</h2>
+
+En mi proyecto, los datos se gestionan siguiendo un ciclo claro:
+
+<h3>Entrada (Generación del dato)</h3> 
+Los datos se generan cuando el usuario carga archivos PDF. El programa extrae el texto de cada página seleccionada utilizando librerías como PyPDF2 y PyMuPDF (fitz).
+
+<h3>Procesamiento</h3> 
+El texto extraído se:
+
+Divide en párrafos.
+
+Se organiza en bloques.
+
+Se envía al traductor automático (deep_translator).
+
+Se limpia y estructura correctamente.
+
+Durante este proceso, los datos se almacenan temporalmente en memoria (listas y diccionarios).
+
+<h3>Salida (Almacenamiento final)</h3>
+El resultado traducido se guarda en:
+
+Archivo PDF (usando reportlab)
+
+Archivo Word (.docx) (usando python-docx)
+
+El usuario elige la carpeta destino.
+
+<h3>Eliminación</h3>
+No se almacenan datos permanentes en bases de datos ni en servidores externos.
+Los datos temporales se eliminan automáticamente al cerrar la aplicación, ya que solo viven en memoria RAM.
+
+Esto hace que el ciclo de vida del dato sea:
+
+Entrada → Procesamiento → Exportación → Eliminación automática
