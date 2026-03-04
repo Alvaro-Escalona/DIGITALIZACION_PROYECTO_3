@@ -7,7 +7,8 @@ En mi proyecto, los datos se gestionan siguiendo un ciclo claro:
 <h3>1 Entrada (Generación del dato) </h3> 
 Los datos se generan cuando el usuario carga archivos PDF. El programa extrae el texto de cada página seleccionada utilizando librerías como PyPDF2 y PyMuPDF (fitz).
 
-<h3>2 Procesamiento </h3> 
+<h3>2 Procesamiento 
+</h3> 
 <h5>El texto extraído se: </h5>
 
 Divide en párrafos.
