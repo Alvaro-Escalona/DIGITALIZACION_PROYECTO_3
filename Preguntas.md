@@ -232,3 +232,27 @@ Informar al usuario mediante una política de privacidad.
 Permitir consentimiento explícito antes de enviar datos a servicios externos.
 
 Ofrecer una opción de traducción completamente offline.
+
+<h2>Si no implementaste medidas de seguridad, ¿qué riesgos potenciales identificas y cómo los abordarías en el futuro?</h2>
+
+Aunque la aplicación es local, identifico algunos riesgos potenciales:
+
+<h3>Riesgos</h3> 
+
+Envío de información sensible a servicios externos de traducción.
+
+Posible pérdida de archivos si ocurre un error durante la exportación.
+
+Falta de cifrado en los archivos generados.
+
+<h3>Soluciones futuras</h3> 
+
+Implementar cifrado de archivos PDF generados.
+
+Integrar un traductor offline para evitar envío de datos.
+
+Añadir sistema de registro (log) para auditoría de procesos.
+
+Crear política de privacidad y aviso legal.
+
+Implementar firma digital o verificación de integridad del archivo exportado.
