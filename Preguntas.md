@@ -8,7 +8,7 @@ En mi proyecto, los datos se gestionan siguiendo un ciclo claro:
 Los datos se generan cuando el usuario carga archivos PDF. El programa extrae el texto de cada página seleccionada utilizando librerías como PyPDF2 y PyMuPDF (fitz).
 
 <h3>2 Procesamiento </h3> 
-El texto extraído se:
+<h5>El texto extraído se: </h5>
 
 Divide en párrafos.
 
@@ -21,7 +21,7 @@ Se limpia y estructura correctamente.
 Durante este proceso, los datos se almacenan temporalmente en memoria (listas y diccionarios).
 
 <h3>3 Salida (Almacenamiento final) </h3>
-El resultado traducido se guarda en:
+<h5>El resultado traducido se guarda en:</h5> 
 
 Archivo PDF (usando reportlab)
 
