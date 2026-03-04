@@ -4,10 +4,10 @@
 
 En mi proyecto, los datos se gestionan siguiendo un ciclo claro:
 
-1 Entrada (Generación del dato)
+<h3>1 Entrada (Generación del dato) </h3> 
 Los datos se generan cuando el usuario carga archivos PDF. El programa extrae el texto de cada página seleccionada utilizando librerías como PyPDF2 y PyMuPDF (fitz).
 
-2 Procesamiento
+<h3>2 Procesamiento </h3> 
 El texto extraído se:
 
 Divide en párrafos.
@@ -20,7 +20,7 @@ Se limpia y estructura correctamente.
 
 Durante este proceso, los datos se almacenan temporalmente en memoria (listas y diccionarios).
 
-3 Salida (Almacenamiento final)
+<h3>3 Salida (Almacenamiento final) </h3>
 El resultado traducido se guarda en:
 
 Archivo PDF (usando reportlab)
@@ -29,7 +29,7 @@ Archivo Word (.docx) (usando python-docx)
 
 El usuario elige la carpeta destino.
 
-4 Eliminación
+<h3>4 Eliminación </h3> 
 No se almacenan datos permanentes en bases de datos ni en servidores externos.
 Los datos temporales se eliminan automáticamente al cerrar la aplicación, ya que solo viven en memoria RAM.
 
@@ -41,7 +41,7 @@ Entrada → Procesamiento → Exportación → Eliminación automática
 
 En el proyecto aplico varias estrategias:
 
-1 Validación de entrada
+<h3>1 Validación de entrada</h3> 
 
 Solo se permiten archivos .pdf.
 
@@ -49,19 +49,19 @@ Se verifica que las rutas existan.
 
 Se controla que haya páginas seleccionadas antes de traducir.
 
-2 Control de errores
+<h3>2 Control de errores</h3> 
 
 Uso de bloques try/except para evitar que el programa se bloquee.
 
 Si falla una traducción, se conserva el texto original.
 
-3 Organización estructurada
+<h3>3 Organización estructurada</h3>
 
 Uso de diccionarios (cola_archivos) para asociar cada PDF con sus páginas seleccionadas.
 
 Las páginas se ordenan antes de procesarse para evitar desorden.
 
-4 Separación por bloques
+<h3>4 Separación por bloques</h3>
 
 El texto se divide en bloques pequeños antes de traducirse para:
 
@@ -69,7 +69,7 @@ Evitar errores por límite de caracteres.
 
 Mantener coherencia en la traducción.
 
-5 Progreso controlado
+<h3>5 Progreso controlado</h3> 
 
 Se lleva un conteo de bloques traducidos para asegurar que todo el contenido se procesa correctamente.
 
@@ -77,17 +77,17 @@ Se lleva un conteo de bloques traducidos para asegurar que todo el contenido se 
 
 Aunque mi aplicación ya trabaja con datos temporales, podría ampliarse incluyendo:
 
-1 Base de datos SQLite 
+<h3>1 Base de datos SQLite</h3>  
 
-para:
+Para:
 
-   Guardar historial de traducciones.
+Guardar historial de traducciones.
    
-   Almacenar fecha, idioma, nombre del archivo.
+Almacenar fecha, idioma, nombre del archivo.
    
-   Permitir reabrir trabajos anteriores.
+Permitir reabrir trabajos anteriores.
 
-Sistema de logs para
+<h3>Sistema de logs</h3> 
 
 Guardar en un archivo .log:
 
@@ -97,7 +97,7 @@ Archivos procesados.
 
 Tiempo de ejecución.
 
-Caché de traducciones para:
+<h3>Caché de traducciones</h3>
 
 Guardar frases ya traducidas para:
 
@@ -107,7 +107,7 @@ Aumentar velocidad.
 
 Reducir consumo de API.
 
-Sistema de usuarios para:
+<h3>Sistema de usuarios</h3>
 
 Permitir perfiles con:
 
