@@ -79,7 +79,7 @@ Aunque mi aplicación ya trabaja con datos temporales, podría ampliarse incluye
 
 <h3>1 Base de datos SQLite</h3>  
 
-Para:
+<h5>Para:</h5> 
 
 Guardar historial de traducciones.
    
@@ -89,7 +89,7 @@ Permitir reabrir trabajos anteriores.
 
 <h3>Sistema de logs</h3> 
 
-Guardar en un archivo .log:
+<h5>Guardar en un archivo .log:</h5> 
 
 Errores de traducción.
 
@@ -99,7 +99,7 @@ Tiempo de ejecución.
 
 <h3>Caché de traducciones</h3>
 
-Guardar frases ya traducidas para:
+<h5>Guardar frases ya traducidas para:</h5> 
 
 Evitar repetir llamadas al traductor.
 
@@ -109,7 +109,7 @@ Reducir consumo de API.
 
 <h3>Sistema de usuarios</h3>
 
-Permitir perfiles con:
+<h5>Permitir perfiles con:</h5> 
 
 Configuraciones guardadas.
 
