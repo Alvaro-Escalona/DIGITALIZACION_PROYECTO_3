@@ -9,7 +9,7 @@ Los datos se generan cuando el usuario carga archivos PDF. El programa extrae el
 
 <h3>2 Procesamiento </h3> 
 El texto extraído se:
-
+<br>
 Divide en párrafos.
 
 Se organiza en bloques.
