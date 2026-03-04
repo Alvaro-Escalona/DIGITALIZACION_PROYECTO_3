@@ -121,6 +121,8 @@ Aunque mi aplicación ya trabaja con datos temporales, podría ampliarse incluye
 
 - Carpeta de salida predeterminada.
 
+---
+
 # Almacenamiento en la nube (5f):
 
 <h2>Si tu software utiliza almacenamiento en la nube, ¿cómo garantizas la seguridad y disponibilidad de los datos?</h2>
@@ -194,6 +196,8 @@ Elegí esta opción porque mi aplicación está diseñada como herramienta de es
 - API propia que procese documentos desde un servidor remoto.
 
 Esto permitiría sincronización entre dispositivos y almacenamiento seguro externo.
+
+---
 
 # Seguridad y regulación (5i):
 
@@ -269,6 +273,8 @@ Aunque la aplicación es local, identifico algunos riesgos potenciales:
 
 - Implementar firma digital o verificación de integridad del archivo exportado.
 
+---
+
 # Implicación de las THD en negocio y planta (2e):
 
 <h2>¿Qué impacto tendría tu software en un entorno de negocio o en una planta industrial?</h2>
@@ -326,6 +332,8 @@ Además del ámbito empresarial e industrial, otros entornos que podrían benefi
 - Empresas tecnológicas, que necesiten traducir documentación técnica rápidamente.
 
 En general, cualquier organización que gestione documentos en varios idiomas podría beneficiarse de esta herramienta.
+
+---
 
 # Mejoras en IT y OT (2f):
 
