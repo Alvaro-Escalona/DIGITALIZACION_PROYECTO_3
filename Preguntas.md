@@ -10,13 +10,13 @@ Los datos se generan cuando el usuario carga archivos PDF. El programa extrae el
 <h3>2 Procesamiento</h3> 
 <h5>El texto extraído se: </h5>
 
-Divide en párrafos.
+- Divide en párrafos.
 
-Se organiza en bloques.
+- Se organiza en bloques.
 
-Se envía al traductor automático (deep_translator).
+- Se envía al traductor automático (deep_translator).
 
-Se limpia y estructura correctamente.
+- Se limpia y estructura correctamente.
 
 Durante este proceso, los datos se almacenan temporalmente en memoria (listas y diccionarios).
 
@@ -256,3 +256,57 @@ Añadir sistema de registro (log) para auditoría de procesos.
 Crear política de privacidad y aviso legal.
 
 Implementar firma digital o verificación de integridad del archivo exportado.
+
+# Implicación de las THD en negocio y planta (2e):
+
+<h2>¿Qué impacto tendría tu software en un entorno de negocio o en una planta industrial?</h2>
+
+Mi software, Transversor PDF, puede tener un impacto significativo en entornos empresariales e industriales, especialmente en empresas que trabajan con documentación técnica en distintos idiomas.
+
+<h5>En un entorno de negocio o planta industrial podría:</h5>
+
+Facilitar la traducción rápida de manuales técnicos, normativas, fichas de seguridad o especificaciones de maquinaria.
+
+Reducir tiempos administrativos al eliminar la necesidad de traducciones externas para documentos internos.
+
+Mejorar la comunicación con proveedores o clientes internacionales.
+
+Disminuir costes asociados a servicios de traducción tradicionales.
+
+En una planta industrial donde se utilicen manuales en diferentes idiomas, el software permitiría adaptar rápidamente la documentación para operarios o técnicos locales.
+
+<h2>¿Cómo crees que tu solución podría mejorar procesos operativos o la toma de decisiones?</h2>
+
+Mi solución mejora procesos operativos de las siguientes maneras:
+
+<h3>Agilización de procesos</h3>
+
+La traducción automática reduce el tiempo necesario para comprender documentación técnica extranjera, permitiendo actuar con mayor rapidez.
+
+<h3>Mayor accesibilidad a la información</h3>
+
+Los trabajadores pueden acceder a documentos en su idioma, lo que reduce errores de interpretación.
+
+<h3>Apoyo a la toma de decisiones</h3>
+
+Los responsables pueden analizar contratos, informes técnicos o normativas internacionales sin depender de terceros, lo que acelera decisiones estratégicas.
+
+<h3>Reducción de errores humanos</h3> 
+
+Al estructurar correctamente los documentos y mantener su formato organizado, se minimiza la pérdida de información relevante.
+
+<h2>Si tu proyecto no aplica directamente a negocio o planta, ¿qué otros entornos podrían beneficiarse?</h2>
+
+Además del ámbito empresarial e industrial, otros entornos que podrían beneficiarse son:
+
+Centros educativos, para traducir artículos científicos o material académico.
+
+Despachos jurídicos, para revisar contratos internacionales.
+
+Administraciones públicas, para adaptar documentación oficial.
+
+Profesionales autónomos, que trabajen con clientes extranjeros.
+
+Empresas tecnológicas, que necesiten traducir documentación técnica rápidamente.
+
+En general, cualquier organización que gestione documentos en varios idiomas podría beneficiarse de esta herramienta.
