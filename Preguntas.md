@@ -37,6 +37,8 @@ Esto hace que el ciclo de vida del dato sea:
 
 Entrada → Procesamiento → Exportación → Eliminación automática
 
+---
+
 <h2>¿Qué estrategia sigues para garantizar la consistencia e integridad de los datos?</h2>
 
 En el proyecto aplico varias estrategias:
@@ -72,6 +74,8 @@ El texto se divide en bloques pequeños antes de traducirse para:
 <h3>5 Progreso controlado</h3> 
 
 Se lleva un conteo de bloques traducidos para asegurar que todo el contenido se procesa correctamente.
+
+---
 
 <h2> Si no trabajas con datos, ¿cómo podrías incluir una funcionalidad que los gestione de forma eficiente? </h2>
 
@@ -137,6 +141,8 @@ Sin embargo, si utilizara almacenamiento en la nube, garantizaría la seguridad 
 
 De esta forma se protegería la confidencialidad, integridad y disponibilidad de la información.
 
+---
+
 <h2>¿Qué alternativas consideraste para almacenar datos y por qué elegiste tu solución actual?</h2> 
 
 Consideré principalmente dos opciones:
@@ -173,6 +179,8 @@ Elegí esta opción porque mi aplicación está diseñada como herramienta de es
 
 - Implica mayor responsabilidad legal en protección de datos.
 
+---
+
 <h2>Si no usas la nube, ¿cómo podrías integrarla en futuras versiones?</h2>
 
 <h3>En futuras versiones podría integrarse la nube mediante:</h3> 
@@ -207,6 +215,8 @@ En mi proyecto he implementado principalmente medidas de seguridad a nivel local
 
 Estas medidas reducen el riesgo de pérdida de datos o accesos no autorizados.
 
+---
+
 <h2>¿Qué normativas (e.g., GDPR) podrían afectar el uso de tu software y cómo las has tenido en cuenta?</h2>
 
 La normativa principal que podría afectar al uso del software es el:
@@ -232,6 +242,8 @@ Por ello, en futuras versiones sería recomendable:
 - Permitir consentimiento explícito antes de enviar datos a servicios externos.
 
 - Ofrecer una opción de traducción completamente offline.
+
+---
 
 <h2>Si no implementaste medidas de seguridad, ¿qué riesgos potenciales identificas y cómo los abordarías en el futuro?</h2>
 
@@ -275,6 +287,8 @@ Mi software, Transversor PDF, puede tener un impacto significativo en entornos e
 
 En una planta industrial donde se utilicen manuales en diferentes idiomas, el software permitiría adaptar rápidamente la documentación para operarios o técnicos locales.
 
+---
+
 <h2>¿Cómo crees que tu solución podría mejorar procesos operativos o la toma de decisiones?</h2>
 
 Mi solución mejora procesos operativos de las siguientes maneras:
@@ -294,6 +308,8 @@ Los responsables pueden analizar contratos, informes técnicos o normativas inte
 <h3>Reducción de errores humanos</h3> 
 
 Al estructurar correctamente los documentos y mantener su formato organizado, se minimiza la pérdida de información relevante.
+
+---
 
 <h2>Si tu proyecto no aplica directamente a negocio o planta, ¿qué otros entornos podrían beneficiarse?</h2>
 
