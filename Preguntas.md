@@ -127,7 +127,8 @@ En mi proyecto, los datos se gestionan siguiendo un ciclo claro:
 Los datos se generan cuando el usuario carga archivos PDF. El programa extrae el texto de cada página seleccionada utilizando librerías como PyPDF2 y PyMuPDF (fitz).
 
 <h3>Procesamiento</h3> 
-El texto extraído se:
+
+<h5>El texto extraído se:</h5> 
 
 Divide en párrafos.
 
@@ -140,7 +141,8 @@ Se limpia y estructura correctamente.
 Durante este proceso, los datos se almacenan temporalmente en memoria (listas y diccionarios).
 
 <h3>Salida (Almacenamiento final)</h3>
-El resultado traducido se guarda en:
+
+<h5>El resultado traducido se guarda en:</h5>
 
 Archivo PDF (usando reportlab)
 
@@ -155,3 +157,39 @@ Los datos temporales se eliminan automáticamente al cerrar la aplicación, ya q
 Esto hace que el ciclo de vida del dato sea:
 
 Entrada → Procesamiento → Exportación → Eliminación automática
+
+<h2>¿Qué estrategia sigues para garantizar la consistencia e integridad de los datos?</h2> 
+
+<h3>En el proyecto aplico varias estrategias:</h3> 
+
+<h3>Validación de entrada</h3> 
+
+Solo se permiten archivos .pdf.
+
+Se verifica que las rutas existan.
+
+Se controla que haya páginas seleccionadas antes de traducir.
+
+✅ Control de errores
+
+Uso de bloques try/except para evitar que el programa se bloquee.
+
+Si falla una traducción, se conserva el texto original.
+
+✅ Organización estructurada
+
+Uso de diccionarios (cola_archivos) para asociar cada PDF con sus páginas seleccionadas.
+
+Las páginas se ordenan antes de procesarse para evitar desorden.
+
+✅ Separación por bloques
+
+El texto se divide en bloques pequeños antes de traducirse para:
+
+Evitar errores por límite de caracteres.
+
+Mantener coherencia en la traducción.
+
+✅ Progreso controlado
+
+Se lleva un conteo de bloques traducidos para asegurar que todo el contenido se procesa correctamente.
