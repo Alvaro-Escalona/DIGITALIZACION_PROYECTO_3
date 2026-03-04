@@ -329,6 +329,8 @@ En general, cualquier organización que gestione documentos en varios idiomas po
 
 # Mejoras en IT y OT (2f):
 
+<h2>¿Cómo puede tu software facilitar la integración entre entornos IT y OT?</h2>
+
 El software **Transversor PDF** puede facilitar la integración entre entornos IT (Information Technology) y OT (Operational Technology) mediante la estandarización y traducción rápida de documentación técnica.
 
 En entornos industriales, la información generada en planta (OT) como manuales de maquinaria, protocolos de mantenimiento o informes técnicos, muchas veces debe ser analizada o archivada en sistemas IT (ERP, plataformas documentales, sistemas de gestión).
@@ -341,5 +343,94 @@ En entornos industriales, la información generada en planta (OT) como manuales 
 - Reducir errores derivados de la mala interpretación de manuales.
 
 De esta forma, actúa como herramienta de apoyo en la digitalización y conexión entre ambos entornos.
+
+---
+
+<h2>¿Qué procesos específicos podrían beneficiarse de tu solución en términos de automatización o eficiencia?</h2> 
+
+<h3>Los procesos que podrían beneficiarse son:</h3>
+
+- Traducción automática de manuales técnicos de maquinaria.
+- Adaptación de protocolos de seguridad a distintos idiomas.
+- Procesamiento rápido de normativas internacionales.
+- Traducción de informes de mantenimiento.
+- Preparación de documentación para auditorías.
+
+<h3>En términos de eficiencia:</h3> 
+
+- Reduce tiempos de traducción manual.
+- Disminuye costes externos.
+- Mejora la rapidez en la toma de decisiones.
+- Aumenta la productividad administrativa.
+
+---
+
+<h2>Si no aplica directamente a IT u OT, ¿cómo podrías adaptarlo para mejorar procesos tecnológicos concretos?</h2> 
+
+En futuras versiones, el software podría evolucionar para integrarse directamente en procesos tecnológicos mediante:
+
+- Integración con sistemas ERP o plataformas documentales.
+- Automatización mediante APIs.
+- Procesamiento en la nube para grandes volúmenes de documentos.
+- Incorporación de reconocimiento OCR avanzado para documentos escaneados.
+- Sistema de clasificación automática de documentos.
+
+Esto permitiría que la herramienta no solo traduzca documentos, sino que forme parte activa de un flujo digital automatizado dentro de empresas industriales o tecnológicas.
+
+---
+
+# Tecnologías Habilitadoras Digitales (2g):
+
+<h2>¿Qué tecnologías habilitadoras digitales (THD) has utilizado o podrías integrar en tu proyecto?</h2>
+
+En el proyecto **Transversor PDF** se utilizan o podrían integrarse las siguientes Tecnologías Habilitadoras Digitales:
+
+<h3>1 Inteligencia Artificial (IA)</h3> 
+- Traducción automática mediante modelos de lenguaje.
+- Procesamiento inteligente del texto.
+
+<h3>2 Automatización de procesos</h3> 
+- División automática de texto en bloques.
+- Generación automática de documentos PDF o DOCX.
+
+<h3>3 Computación en la nube (posible integración futura)**  </h3> 
+- Almacenamiento remoto.
+- Procesamiento en servidores externos.
+
+<h3>4 Big Data (potencial futuro)</h3> 
+- Análisis de grandes volúmenes de documentos.
+- Estadísticas de uso y rendimiento.
+
+<h3>5 Ciberseguridad</h3>
+- Protección de datos mediante procesamiento local.
+- Posible implementación futura de cifrado.
+
+---
+
+<h2>¿Cómo mejoran estas tecnologías la funcionalidad o el alcance de tu software?</h2> 
+
+<h3>Las THD permiten:</h3>
+
+- Automatizar tareas repetitivas y reducir errores humanos.
+- Aumentar la velocidad de procesamiento de documentos.
+- Mejorar la precisión en la traducción.
+- Permitir escalabilidad en futuras versiones en la nube.
+- Facilitar la integración con otros sistemas empresariales.
+
+Gracias a estas tecnologías, el software pasa de ser una simple herramienta de edición a una solución digital inteligente y adaptable a entornos profesionales.
+
+---
+
+## Si no has utilizado THD, ¿cómo podrías implementarlas para enriquecer tu solución?
+
+<h3>En futuras versiones se podrían implementar:</h3> 
+
+- Modelos de IA más avanzados para mejorar la calidad de traducción.
+- Sistemas de aprendizaje automático que adapten la traducción al contexto técnico.
+- Plataforma web en la nube con acceso multiusuario.
+- Integración con APIs empresariales.
+- Sistema de análisis de datos para detectar patrones de uso.
+
+Esto permitiría transformar el proyecto en una solución digital más completa, escalable y preparada para entornos empresariales e industriales.
 
 ---
