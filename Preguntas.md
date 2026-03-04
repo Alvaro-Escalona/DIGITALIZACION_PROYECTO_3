@@ -186,3 +186,49 @@ Base de datos online para guardar historial de traducciones.
 API propia que procese documentos desde un servidor remoto.
 
 Esto permitiría sincronización entre dispositivos y almacenamiento seguro externo.
+
+# Seguridad y regulación (5i):
+
+<h2>¿Qué medidas de seguridad implementaste para proteger los datos o procesos en tu proyecto?</h2>
+
+En mi proyecto he implementado principalmente medidas de seguridad a nivel local y de control de errores, ya que la aplicación funciona como herramienta de escritorio y no almacena datos en servidores externos.
+
+<h5>Las principales medidas son:</h5> 
+
+Procesamiento local de los archivos: los PDFs se procesan en el equipo del usuario, evitando transferencias innecesarias.
+
+No almacenamiento permanente de datos: los datos se mantienen en memoria temporal y se eliminan al cerrar la aplicación.
+
+Validación de archivos de entrada: solo se permiten archivos con extensión .pdf.
+
+Control de errores (try/except): evita fallos del sistema y pérdida de información durante el proceso de traducción.
+
+Selección manual de carpeta destino: el usuario decide dónde guardar los archivos traducidos.
+
+Estas medidas reducen el riesgo de pérdida de datos o accesos no autorizados.
+
+<h2>¿Qué normativas (e.g., GDPR) podrían afectar el uso de tu software y cómo las has tenido en cuenta?</h2>
+
+La normativa principal que podría afectar al uso del software es el:
+
+<h3>📜 Reglamento General de Protección de Datos (GDPR / RGPD)</h3>
+
+Esta normativa europea regula el tratamiento de datos personales.
+
+En mi caso:
+
+La aplicación no almacena datos personales en servidores propios.
+
+No existe base de datos de usuarios.
+
+No se recopila información identificativa.
+
+Sin embargo, si los PDFs contienen datos personales y se utiliza un servicio de traducción online, podría implicar transferencia de datos a terceros.
+
+Por ello, en futuras versiones sería recomendable:
+
+Informar al usuario mediante una política de privacidad.
+
+Permitir consentimiento explícito antes de enviar datos a servicios externos.
+
+Ofrecer una opción de traducción completamente offline.
