@@ -386,22 +386,27 @@ Esto permitiría que la herramienta no solo traduzca documentos, sino que forme 
 En el proyecto **Transversor PDF** se utilizan o podrían integrarse las siguientes Tecnologías Habilitadoras Digitales:
 
 <h3>1 Inteligencia Artificial (IA)</h3> 
+
 - Traducción automática mediante modelos de lenguaje.
 - Procesamiento inteligente del texto.
 
 <h3>2 Automatización de procesos</h3> 
+
 - División automática de texto en bloques.
 - Generación automática de documentos PDF o DOCX.
 
-<h3>3 Computación en la nube (posible integración futura)**  </h3> 
+<h3>3 Computación en la nube (posible integración futura)</h3> 
+
 - Almacenamiento remoto.
 - Procesamiento en servidores externos.
 
 <h3>4 Big Data (potencial futuro)</h3> 
+
 - Análisis de grandes volúmenes de documentos.
 - Estadísticas de uso y rendimiento.
 
 <h3>5 Ciberseguridad</h3>
+
 - Protección de datos mediante procesamiento local.
 - Posible implementación futura de cifrado.
 
@@ -421,7 +426,7 @@ Gracias a estas tecnologías, el software pasa de ser una simple herramienta de 
 
 ---
 
-## Si no has utilizado THD, ¿cómo podrías implementarlas para enriquecer tu solución?
+<h2>Si no has utilizado THD, ¿cómo podrías implementarlas para enriquecer tu solución?</h2> 
 
 <h3>En futuras versiones se podrían implementar:</h3> 
 
