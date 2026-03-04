@@ -121,75 +121,68 @@ Carpeta de salida predeterminada.
 
 <h2>Si tu software utiliza almacenamiento en la nube, ¿cómo garantizas la seguridad y disponibilidad de los datos?</h2>
 
-En mi proyecto, los datos se gestionan siguiendo un ciclo claro:
+Actualmente mi software no almacena archivos en la nube, ya que todo el procesamiento se realiza de forma local en el equipo del usuario.
 
-<h3>Entrada (Generación del dato)</h3> 
-Los datos se generan cuando el usuario carga archivos PDF. El programa extrae el texto de cada página seleccionada utilizando librerías como PyPDF2 y PyMuPDF (fitz).
+Sin embargo, si utilizara almacenamiento en la nube, garantizaría la seguridad y disponibilidad mediante:
 
-<h3>Procesamiento</h3> 
+Cifrado de datos tanto en tránsito (HTTPS/TLS) como en reposo.
 
-<h5>El texto extraído se:</h5> 
+Autenticación segura de usuarios, incluyendo contraseñas cifradas y verificación en dos pasos.
 
-Divide en párrafos.
+Control de accesos, para que cada usuario solo pueda acceder a sus propios archivos.
 
-Se organiza en bloques.
+Copias de seguridad automáticas en servidores redundantes.
 
-Se envía al traductor automático (deep_translator).
+Uso de proveedores con alta disponibilidad (99,9% o superior) para evitar pérdidas de datos.
 
-Se limpia y estructura correctamente.
+De esta forma se protegería la confidencialidad, integridad y disponibilidad de la información.
 
-Durante este proceso, los datos se almacenan temporalmente en memoria (listas y diccionarios).
+<h2>¿Qué alternativas consideraste para almacenar datos y por qué elegiste tu solución actual?</h2> 
 
-<h3>Salida (Almacenamiento final)</h3>
+Consideré principalmente dos opciones:
 
-<h5>El resultado traducido se guarda en:</h5>
+<h3>Almacenamiento local</h3> 
 
-Archivo PDF (usando reportlab)
+<h5>Ventajas:</h5> 
 
-Archivo Word (.docx) (usando python-docx)
+Mayor privacidad.
 
-El usuario elige la carpeta destino.
+No depende de conexión a internet.
 
-<h3>Eliminación</h3>
-No se almacenan datos permanentes en bases de datos ni en servidores externos.
-Los datos temporales se eliminan automáticamente al cerrar la aplicación, ya que solo viven en memoria RAM.
+Procesamiento más rápido.
 
-Esto hace que el ciclo de vida del dato sea:
+No requiere costes de servidor.
 
-Entrada → Procesamiento → Exportación → Eliminación automática
+Elegí esta opción porque mi aplicación está diseñada como herramienta de escritorio y prioriza la seguridad y el control del usuario sobre sus documentos.
 
-<h2>¿Qué estrategia sigues para garantizar la consistencia e integridad de los datos?</h2> 
+<h3>Almacenamiento en la nube</h3> 
 
-<h3>En el proyecto aplico varias estrategias:</h3> 
+<h5>Ventajas:</h5> 
 
-<h3>Validación de entrada</h3> 
+Acceso desde cualquier dispositivo.
 
-Solo se permiten archivos .pdf.
+Sincronización automática.
 
-Se verifica que las rutas existan.
+Copias de seguridad externas.
 
-Se controla que haya páginas seleccionadas antes de traducir.
+<h5>No la elegí porque:</h5>
 
-✅ Control de errores
+Aumenta la complejidad técnica.
 
-Uso de bloques try/except para evitar que el programa se bloquee.
+Requiere mantenimiento de servidores.
 
-Si falla una traducción, se conserva el texto original.
+Implica mayor responsabilidad legal en protección de datos.
 
-✅ Organización estructurada
+<h2>Si no usas la nube, ¿cómo podrías integrarla en futuras versiones?</h2>
 
-Uso de diccionarios (cola_archivos) para asociar cada PDF con sus páginas seleccionadas.
+<h3>En futuras versiones podría integrarse la nube mediante:</h3> 
 
-Las páginas se ordenan antes de procesarse para evitar desorden.
+Sistema de cuentas de usuario con inicio de sesión.
 
-✅ Separación por bloques
+Subida automática de archivos traducidos a servicios como Google Drive o OneDrive.
 
-El texto se divide en bloques pequeños antes de traducirse para:
+Base de datos online para guardar historial de traducciones.
 
-Evitar errores por límite de caracteres.
+API propia que procese documentos desde un servidor remoto.
 
-Mantener coherencia en la traducción.
-
-✅ Progreso controlado
-
-Se lleva un conteo de bloques traducidos para asegurar que todo el contenido se procesa correctamente.
+Esto permitiría sincronización entre dispositivos y almacenamiento seguro externo.
