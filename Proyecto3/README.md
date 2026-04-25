@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://img.icons8.com/fluency/144/pdf-2.png" alt="Transversor PDF Logo" width="120">
+  <img src="icoono.ico" alt="Transversor PDF Logo" width="120">
 </p>
 
 <h1 align="center">Transversor</h1>
