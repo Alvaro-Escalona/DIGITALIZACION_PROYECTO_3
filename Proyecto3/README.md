@@ -2,7 +2,7 @@
   <img src="https://img.icons8.com/fluency/144/pdf-2.png" alt="Transversor PDF Logo" width="120">
 </p>
 
-<h1 align="center">Transversor PDF</h1>
+<h1 align="center">Transversor</h1>
 
 <p align="center">
   <strong>Advanced Document Transmutation & Multilingual Digitalization Tool.</strong>
@@ -19,7 +19,7 @@
 
 ## 💡 Motivation
 
-In the era of **Digital Transformation**, the ability to process and understand technical documentation in multiple languages is a strategic asset. **Transversor PDF** was developed to solve a critical bottleneck in industrial and business environments: the friction of dealing with foreign-language technical manuals, contracts, and specifications.
+In the era of **Digital Transformation**, the ability to process and understand technical documentation in multiple languages is a strategic asset. **Transversor** was developed to solve a critical bottleneck in industrial and business environments: the friction of dealing with foreign-language technical manuals, contracts, and specifications.
 
 By automating the extraction and translation process while maintaining logical paragraph structures, this tool:
 * **Accelerates Decision-Making:** Reduces the time spent on manual translation.
@@ -28,7 +28,7 @@ By automating the extraction and translation process while maintaining logical p
 
 ---
 
-## ❓ Why Transversor?
+##  Why Transversor❓
 
 In many industrial and corporate sectors, technical documentation is still a barrier to efficiency. **Transversor** was born from the need to:
 
