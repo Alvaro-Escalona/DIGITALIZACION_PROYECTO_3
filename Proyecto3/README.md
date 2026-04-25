@@ -70,4 +70,44 @@ Windows: The application includes a specific ctypes fix for high-DPI scaling and
 
 Linux: Ensure you have tk-dev installed for the graphical interface to render correctly (sudo apt-get install python3-tk).
 
-   
+---
+
+## 🛠️ Usage Examples
+
+### 1. Basic Translation
+1. **Launch the application:** Run `python traductorv4.py`.
+2. **Load documents:** Drag and drop your PDF files into the main window or use the "Add PDFs" button.
+3. **Configure:** Select your target language and desired output format (.pdf or .docx).
+4. **Translate:** Click **"Translate All"** and monitor progress through the real-time status bar.
+
+### 2. Selective Processing
+1. **Visual Selection:** Double-click any file in the list to open the visual page editor.
+2. **Filter Content:** Select only the specific pages (e.g., technical specs) you need to translate.
+3. **Optimized Output:** The software will only process the selected pages, saving time and API resources.
+
+---
+
+## 🏗️ Architecture & Security
+
+This project is built with a focus on **Data Integrity** and **Privacy**:
+
+* **Local Processing:** All PDF parsing and file generation happen on the user's machine.
+* **Volatile Memory:** Data is stored in temporary dictionaries (`cola_archivos`) during the session and is completely cleared upon closing the app.
+* **Threaded Execution:** Translation runs in background threads to ensure the UI remains responsive and prevent data corruption during processing.
+* **Input Validation:** Strict file type checks and path verification to prevent system errors.
+
+---
+
+## 🎯 Strategic Objectives
+
+As part of the organization's **Digital Transformation** roadmap, this project fulfills the following:
+
+- **Strategic Integration:** Aligning technical production with administrative needs by providing instant multilingual support.
+- **Code Excellence:** Transitioning from a functional script to a modular, documented, and professional codebase (Open Source standards).
+- **Scalability:** Designed to allow future integrations with Cloud Storage (S3, Google Drive) or Enterprise OCR engines.
+
+---
+
+## ⚖️ License
+
+Distributed under
