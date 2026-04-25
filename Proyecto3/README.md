@@ -59,4 +59,14 @@ By automating the extraction and translation process while maintaining logical p
     .\venv\Scripts\activate
     # On macOS/Linux:
     source venv/bin/activate
+
+3. **Install Dependencies:**
+   ```bash
+     pip install -r requirements.txt
+
+**Platform-Specific Notes**
+Windows: The application includes a specific ctypes fix for high-DPI scaling and taskbar icon integration.
+
+Linux: Ensure you have tk-dev installed for the graphical interface to render correctly (sudo apt-get install python3-tk).
+
    
