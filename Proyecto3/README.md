@@ -110,4 +110,4 @@ As part of the organization's **Digital Transformation** roadmap, this project f
 
 ## ⚖️ License
 
-Distributed under
+Distributed under the MIT License. See LICENSE for more information.
