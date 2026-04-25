@@ -109,8 +109,12 @@ Linux: Ensure you have tk-dev installed for the graphical interface to render co
 
 
 3. **Load documents:** Drag and drop your PDF files into the main window or use the "Add PDFs" button.
-4. **Configure:** Select your target language and desired output format (.pdf or .docx).
-5. **Translate:** Click **"Translate All"** and monitor progress through the real-time status bar.
+
+<p align="center">
+  <img width="1392" height="910" alt="1" src="https://github.com/user-attachments/assets/d73e52c3-42ba-4820-937c-e0f02dde8243" alt="Step Screenshot" width="400">
+</p>
+5. **Configure:** Select your target language and desired output format (.pdf or .docx).
+6. **Translate:** Click **"Translate All"** and monitor progress through the real-time status bar.
 
 
 
