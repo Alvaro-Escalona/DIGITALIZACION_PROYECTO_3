@@ -101,15 +101,7 @@ Linux: Ensure you have tk-dev installed for the graphical interface to render co
 
 ### 1. Basic Translation
 1. **Launch the application:** Run `python traductorv4.py`.
-
-   <p align="center">
-  <img width="1392" height="910" alt="1" src="https://github.com/user-attachments/assets/d73e52c3-42ba-4820-937c-e0f02dde8243" alt="Step 1" width="600">
-  <br>
-  <em>Caption: Loading PDF files into the Transversor engine.</em>
-</p>
-
-
-3. **Load documents:** Drag and drop your PDF files into the main window or use the "Add PDFs" button.
+2. **Load documents:** Drag and drop your PDF files into the main window or use the "Add PDFs" button.
 
 <p align="center">
   <img width="1392" height="910" alt="1" src="https://github.com/user-attachments/assets/d73e52c3-42ba-4820-937c-e0f02dde8243" alt="Step Screenshot" width="400">
@@ -117,10 +109,12 @@ Linux: Ensure you have tk-dev installed for the graphical interface to render co
 
 
 
-5. **Configure:** Select your target language and desired output format (.pdf or .docx).
-6. **Translate:** Click **"Translate All"** and monitor progress through the real-time status bar.
+3. **Configure:** Select your target language and desired output format (.pdf or .docx).
+4. **Translate:** Click **"Translate All"** and monitor progress through the real-time status bar.
 
-
+| Step 2: Load | Step 2: Select Pages | Step 3: Result |
+| :---: | :---: | :---: |
+| <img width="1392" height="910" alt="1" src="https://github.com/user-attachments/assets/d73e52c3-42ba-4820-937c-e0f02dde8243" width="200"> | 
 
 
 ### 2. Selective Processing
