@@ -28,6 +28,30 @@ By automating the extraction and translation process while maintaining logical p
 
 ---
 
+## ❓ Why Transversor?
+
+In many industrial and corporate sectors, technical documentation is still a barrier to efficiency. **Transversor** was born from the need to:
+
+* **Preserve Context:** Unlike standard copy-paste translators, Transversor analyzes paragraph structures to ensure that technical meaning isn't lost in translation.
+* **Empower Users:** By allowing a visual selection of pages, we avoid the "all-or-nothing" approach, saving time and focus.
+* **Bridge the Language Gap:** It enables non-multilingual staff to operate machinery or review legal specs with the same confidence as a native speaker.
+* **Security First:** Businesses shouldn't have to upload sensitive blueprints to the cloud just to understand them. Transversor keeps everything local.
+
+---
+
+## ⚙️ How Transversor Works
+
+The "magic" behind the transmutation process follows a robust 4-step pipeline:
+
+1.  **Extraction (Parsing):** Using `PyMuPDF` (fitz) and `PyPDF2`, the system decodes the PDF structure, identifying text blocks and page coordinates.
+2.  **Segmentation:** The text is divided into manageable chunks. This prevents API overflows and allows the software to maintain the original document's logical flow.
+3.  **Neural Translation:** Each segment is sent to the translation engine (Deep Translator). The system manages these calls through a queuing system to ensure stability.
+4.  **Reconstruction:** * For **PDFs**: It uses `ReportLab` to re-draw the text into a new document.
+    * For **DOCX**: It uses `python-docx` to create an editable version with professional styling.
+5.  **Multi-threading:** All these steps run in a separate execution thread, meaning the user can still interact with the UI or load more files while the "Transversor" is working in the background.
+
+---
+
 ## ✨ Key Features
 
 * **🌐 Intelligent Translation:** Powered by `deep-translator` with support for Google Translate API.
