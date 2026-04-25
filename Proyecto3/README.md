@@ -1,4 +1,5 @@
-  <img src="icono.ico" alt="Transversor PDF Logo" width="120" align="center">
+<p align="center">
+  <img src="icono.ico" alt="Transversor PDF Logo" width="120" >
 </p>
 
 <h1 align="center">Transversor</h1>
