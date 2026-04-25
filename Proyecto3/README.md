@@ -130,7 +130,7 @@ Linux: Ensure you have tk-dev installed for the graphical interface to render co
 
 | Step 1: Load | Step 2: Select Pages | Step 3: Result |
 | :---: | :---: | :---: |
-| <img width="1392" height="910" alt="1" src="https://github.com/user-attachments/assets/d73e52c3-42ba-4820-937c-e0f02dde8243" width="200"> | <img width="1398" height="907" alt="Captura de pantalla 2026-04-25 190025" src="https://github.com/user-attachments/assets/d5353c7d-781c-4b0f-8d31-a2991a3a46ca" /> width="200" | <img width="1397" height="911" alt="Captura de pantalla 2026-04-25 185932" src="https://github.com/user-attachments/assets/cb35c91e-7aac-4aa0-8223-1bc1794c61ca" width="200"> 
+| <img width="1392" height="910" alt="1" src="https://github.com/user-attachments/assets/d73e52c3-42ba-4820-937c-e0f02dde8243" width="200"> | <img width="1398" height="907" alt="Captura de pantalla 2026-04-25 190025" src="https://github.com/user-attachments/assets/d5353c7d-781c-4b0f-8d31-a2991a3a46ca" width="200"> | <img width="1397" height="911" alt="Captura de pantalla 2026-04-25 185932" src="https://github.com/user-attachments/assets/cb35c91e-7aac-4aa0-8223-1bc1794c61ca" width="200"> 
 
 
 
