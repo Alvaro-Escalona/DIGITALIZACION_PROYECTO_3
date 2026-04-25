@@ -1,33 +1,53 @@
-# Transversor PDF Pro 📄🌍
-
-<p align="left">
-  <img src="https://img.shields.io/badge/Python-3.13-blue.svg" alt="Python Version">
-  <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License">
-  <img src="https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey.svg" alt="Platform">
+<p align="center">
+  <img src="https://img.icons8.com/fluency/144/pdf-2.png" alt="Transversor PDF Logo" width="120">
 </p>
 
-An advanced open-source suite for **intelligent PDF translation** and structural digital transformation. Transversor PDF Pro bridges the gap between static multilingual documents and actionable data by preserving layouts while translating.
+<h1 align="center">Transversor PDF</h1>
 
-## 🌟 Why Transversor PDF?
-In a globalized business environment, efficient information management is a competitive advantage. Traditional translators often break document structures; our tool identifies **paragraphs, bullet points, and numbered lists** to ensure the output remains professional.
+<p align="center">
+  <strong>Advanced Document Transmutation & Multilingual Digitalization Tool.</strong>
+</p>
 
-## ✨ Features
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-Active-brightgreen" alt="Status">
+  <img src="https://img.shields.io/badge/License-MIT-blue" alt="License">
+  <img src="https://img.shields.io/badge/Python-3.10+-yellow" alt="Python">
+  <img src="https://img.shields.io/badge/Platform-Cross--Platform-lightgrey" alt="Platform">
+</p>
 
-| Feature | Description |
-| :--- | :--- |
-| **Structural Awareness** | Automatically detects and preserves layouts (lists and blocks). |
-| **Visual Selector** | Choose specific pages to minimize API costs and energy waste. |
-| **Multi-threading** | Asynchronous processing to keep the UI responsive during tasks. |
-| **Multi-Language** | Neural translation support for Spanish, English, French, Italian, Portuguese, German, and Chinese. |
-| **Hybrid Export** | Generate both structured PDF and editable Word (.docx) files. |
+---
 
-## 🚀 Installation & Deployment
+## 💡 Motivation
 
-### 🪟 Windows (Recommended)
-1. Download the latest `.exe` from the **Releases** section on the right.
-2. Run directly—no Python installation required.
+In the era of **Digital Transformation**, the ability to process and understand technical documentation in multiple languages is a strategic asset. **Transversor PDF** was developed to solve a critical bottleneck in industrial and business environments: the friction of dealing with foreign-language technical manuals, contracts, and specifications.
 
-### 🐧 Linux (Ubuntu/Debian)
-1. Install system dependencies:
-```bash
-sudo apt update && sudo apt install python3-tk python3-pip
+By automating the extraction and translation process while maintaining logical paragraph structures, this tool:
+* **Accelerates Decision-Making:** Reduces the time spent on manual translation.
+* **Optimizes IT/OT Integration:** Bridges the gap between international machinery documentation (OT) and digital information systems (IT).
+* **Ensures Data Privacy:** Operates locally to protect sensitive corporate information from being stored on external servers.
+
+---
+
+## ✨ Key Features
+
+* **🌐 Intelligent Translation:** Powered by `deep-translator` with support for Google Translate API.
+* **🖱️ Modern UX:** A sleek Dark Mode interface built with `customtkinter`.
+* **📥 Drag & Drop System:** Mass file loading for high-volume environments.
+* **🔍 Visual Page Selector:** Granular control over which parts of the document to process.
+* **⚡ Multi-threaded Processing:** Ensures the UI remains responsive during heavy translation tasks.
+* **📄 Professional Output:** Exports to both editable `.docx` and read-only `.pdf` formats.
+
+---
+
+## 🚀 Getting Started (Deployment)
+
+### Prerequisites
+* **Python 3.10** or higher.
+* `pip` (Python package installer).
+
+### Installation (Generic)
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/your-username/Transversor-PDF.git](https://github.com/your-username/Transversor-PDF.git)
+   cd Transversor-PDF
