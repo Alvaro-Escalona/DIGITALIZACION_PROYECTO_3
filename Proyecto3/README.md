@@ -103,7 +103,7 @@ Linux: Ensure you have tk-dev installed for the graphical interface to render co
 3. **Configure:** Select your target language and desired output format (.pdf or .docx).
 4. **Translate:** Click **"Translate All"** and monitor progress through the real-time status bar.
 
-| Step 2: Load | Step 2: Select Pages | Step 3: Result |
+| Step 2: Load | Step 2: Select the laguage | Step 3: Result |
 | :---: | :---: | :---: |
 | <img width="1392" height="910" alt="1" src="https://github.com/user-attachments/assets/d73e52c3-42ba-4820-937c-e0f02dde8243" width="200"> | <img width="1398" height="907" alt="Captura de pantalla 2026-04-25 194539" src="https://github.com/user-attachments/assets/6a29a717-5b94-431b-bc11-f5e6664672ca"  width="200"> | <img width="1396" height="910" alt="Captura de pantalla 2026-04-25 194621" src="https://github.com/user-attachments/assets/b41c3b04-9847-4100-8f6b-aa176a61ccd5"  width="200">
 
