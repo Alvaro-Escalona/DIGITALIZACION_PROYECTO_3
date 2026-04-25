@@ -114,9 +114,7 @@ Linux: Ensure you have tk-dev installed for the graphical interface to render co
   <img width="1392" height="910" alt="1" src="https://github.com/user-attachments/assets/d73e52c3-42ba-4820-937c-e0f02dde8243" alt="Step Screenshot" width="400">
 </p>
 
-| Step 1: Load | Step 2: Select Pages | Step 3: Result |
-| :---: | :---: | :---: |
-| <img width="1392" height="910" alt="1" src="https://github.com/user-attachments/assets/d73e52c3-42ba-4820-937c-e0f02dde8243" width="200"> | <img src="step2.png" width="200"> | <img src="step3.png" width="200"> |
+
 
 5. **Configure:** Select your target language and desired output format (.pdf or .docx).
 6. **Translate:** Click **"Translate All"** and monitor progress through the real-time status bar.
@@ -128,6 +126,12 @@ Linux: Ensure you have tk-dev installed for the graphical interface to render co
 1. **Visual Selection:** Double-click any file in the list to open the visual page editor.
 2. **Filter Content:** Select only the specific pages (e.g., technical specs) you need to translate.
 3. **Optimized Output:** The software will only process the selected pages, saving time and API resources.
+
+| Step 1: Load | Step 2: Select Pages | Step 3: Result |
+| :---: | :---: | :---: |
+| <img width="1392" height="910" alt="1" src="https://github.com/user-attachments/assets/d73e52c3-42ba-4820-937c-e0f02dde8243" width="200"> | |<img width="1398" height="907" alt="Captura de pantalla 2026-04-25 190025" src="https://github.com/user-attachments/assets/5fb543d2-b6fd-4df9-9911-32ac5780c9b2" width="200"> | <img width="1397" height="911" alt="Captura de pantalla 2026-04-25 185932" src="https://github.com/user-attachments/assets/cb35c91e-7aac-4aa0-8223-1bc1794c61ca" width="200"> 
+
+
 
 ---
 
