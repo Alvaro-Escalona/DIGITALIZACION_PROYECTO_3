@@ -1,0 +1,8 @@
+customtkinter
+tkinterdnd2
+Pillow
+PyPDF2
+deep-translator
+reportlab
+python-docx
+pymupdf
