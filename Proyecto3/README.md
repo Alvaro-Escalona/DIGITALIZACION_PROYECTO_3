@@ -51,3 +51,12 @@ By automating the extraction and translation process while maintaining logical p
    ```bash
    git clone [https://github.com/your-username/Transversor-PDF.git](https://github.com/your-username/Transversor-PDF.git)
    cd Transversor-PDF
+
+2. **Set up a Virtual Environment (Recommended):**
+   ```bash
+   python -m venv venv
+    # On Windows:
+    .\venv\Scripts\activate
+    # On macOS/Linux:
+    source venv/bin/activate
+   
