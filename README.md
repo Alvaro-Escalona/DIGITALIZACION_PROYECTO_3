@@ -170,4 +170,4 @@ As part of the organization's **Digital Transformation** roadmap, this project f
 
 ## ⚖️ License
 
-Distributed under the MIT License. See LICENSE for more information.
+Distributed under the [MIT License] (https://github.com/Alvaro-Escalona/DIGITALIZACION_PROYECTO_3/blob/main/LICENSE). See LICENSE for more information.
