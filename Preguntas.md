@@ -1,6 +1,6 @@
 # Criterio 6a) Objetivos estratégicos
 
-### 1. ¿Qué objetivos estratégicos específicos de la empresa aborda tu software?
+## 1. ¿Qué objetivos estratégicos específicos de la empresa aborda tu software?
 
 El desarrollo del **Transversor PDF** aborda tres objetivos estratégicos fundamentales para cualquier organización moderna que maneje grandes volúmenes de documentación:
 
@@ -9,7 +9,7 @@ El desarrollo del **Transversor PDF** aborda tres objetivos estratégicos fundam
 * **Mejora de la Accesibilidad y Globalización:** Uno de los objetivos estratégicos es la expansión a mercados internacionales. Este software facilita que departamentos de ventas o soporte técnico accedan a manuales o facturas en siete idiomas diferentes (Español, Inglés, Francés, Italiano, Portugués, Alemán y Chino), rompiendo las barreras lingüísticas de forma inmediata y automática.
 * **Seguridad y Control de la Información:** Al ser una herramienta controlada y ejecutada localmente o en un entorno de desarrollo propio, la empresa mantiene un mayor control sobre qué se traduce y cómo se distribuye, evitando que los empleados utilicen herramientas en línea no autorizadas que podrían comprometer la privacidad de los datos sensibles contenidos en los archivos PDF.
 
-### 2. ¿Cómo se alinea el software con la estrategia general de digitalización?
+## 2. ¿Cómo se alinea el software con la estrategia general de digitalización?
 
 El software se alinea directamente con los pilares de la digitalización empresarial de la siguiente manera:
 
