@@ -31,13 +31,13 @@
 <br>
 🌐 [Live Demo](#-live-demo)  
 <br>
-❓ [Why Transversor?](#why-transversor)  
+❓ [Why Transversor?](#-why-transversor)  
 <br>
 ⚙️ [How Transversor Works](#️-how-transversor-works)  
 <br>
-🚀 [Getting Started](#-Getting-Started-(Deployment))  
+🚀 [Getting Started](#-getting-Started-(Deployment))  
 <br>
-🛠️ [Customizability and Ideas for Extensions](#️-Usage-Exampless)  
+🛠️ [Usage Examples](#️-usage-Exampless)  
 <br>
 📸 [Transversor at Work](#-transversor-at-work)  
 <br>
