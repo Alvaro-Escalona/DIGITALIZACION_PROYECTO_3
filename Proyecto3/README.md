@@ -4,24 +4,32 @@
 
 <h1 align="center">Transversor</h1>
 
-# 🌐 Transversor
-
 <p align="center">
-  ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
-  ![License MIT](https://img.shields.io/badge/license-MIT-yellow.svg)
-  ![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)
+  <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome">
+  <img src="https://img.shields.io/badge/license-MIT-yellow.svg" alt="License MIT">
+  <img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue" alt="Hugging Face">
 </p>
 
-
-🌐 **Transversor** is an open-source document processing tool designed to bridge linguistic barriers by providing seamless translation of PDF documents. Unlike conventional translation tools that often struggle with document structure, Transversor focuses on generating clean, accessible output in both **Microsoft Word (.docx)** and **PDF** formats, ensuring that the essence and readability of your content remain intact across languages.
-
-Whether you are handling academic papers, business reports, or technical manuals, Transversor provides a streamlined workflow that respects the integrity of the original source while delivering a nuanced translation experience.
-
-> **Important Note:** 🌐 Transversor is intended to assist in multilingual support for small-scale projects or personal use where professional translation may not be immediately accessible. It provides a practical solution for high-quality results in contexts where speed and accessibility are paramount, ensuring that language is never a barrier to the global reach of your content.
+<h1 align="center">🌐 Transversor</h1>
 
 <p align="center">
-[Demo](https://huggingface.co/spaces/AlvaroEC/Transversor) · [Report a Bug](https://github.com/AlvaroEC/transversor/issues) · [Request a Feature](https://github.com/AlvaroEC/transversor/issues)
+  <b>Transversor</b> is an open-source document processing tool designed to bridge linguistic barriers by providing seamless translation of PDF documents. Unlike conventional translation tools that often struggle with document structure, Transversor focuses on generating clean, accessible output in both <b>Microsoft Word (.docx)</b> and <b>PDF</b> formats, ensuring that the essence and readability of your content remain intact across languages.
 </p>
+
+<p align="center">
+  Whether you are handling academic papers, business reports, or technical manuals, Transversor provides a streamlined workflow that respects the integrity of the original source while delivering a nuanced translation experience.
+</p>
+
+> [!IMPORTANT]
+> **🌐 Transversor** is intended to assist in multilingual support for small-scale projects or personal use where professional translation may not be immediately accessible. It provides a practical solution for high-quality results in contexts where speed and accessibility are paramount, ensuring that language is never a barrier to the global reach of your content.
+
+<p align="center">
+  <a href="https://huggingface.co/spaces/AlvaroEC/Transversor"><b>Demo</b></a> • 
+  <a href="https://github.com/AlvaroEC/transversor/issues"><b>Report a Bug</b></a> • 
+  <a href="https://github.com/AlvaroEC/transversor/issues"><b>Request a Feature</b></a>
+</p>
+
+---
 
 ---
 
