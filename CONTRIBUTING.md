@@ -7,13 +7,13 @@ To ensure a smooth collaboration, please read the following guidelines.
 ---
 
 ## 📑 Table of Contents
-1. [Code of Conduct](#-code-of-conduct)
-2. [How Can I Contribute?](#-how-can-i-contribute)
-3. [Reporting Bugs](#-reporting-bugs)
-4. [Feature Requests](#-feature-requests)
-5. [Development Workflow](#-development-workflow)
-6. [Coding Style](#-coding-style)
-7. [Roadmap & Future Enhancements](#-roadmap--future-enhancements)
+[Code of Conduct](#-code-of-conduct)
+[How Can I Contribute?](#-how-can-i-contribute)
+[Reporting Bugs](#-reporting-bugs)
+[Feature Requests](#-feature-requests)
+[Development Workflow](#-development-workflow)
+[Coding Style](#-coding-style)
+[Roadmap & Future Enhancements](#-roadmap--future-enhancements)
 
 ---
 
