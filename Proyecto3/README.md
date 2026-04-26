@@ -5,6 +5,7 @@
 <h1 align="center">Transversor</h1>
 
 # 🌐 Transversor
+
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
 ![License MIT](https://img.shields.io/badge/license-MIT-yellow.svg)
 ![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)
@@ -15,9 +16,7 @@ Whether you are handling academic papers, business reports, or technical manuals
 
 > **Important Note:** 🌐 Transversor is intended to assist in multilingual support for small-scale projects or personal use where professional translation may not be immediately accessible. It provides a practical solution for high-quality results in contexts where speed and accessibility are paramount, ensuring that language is never a barrier to the global reach of your content.
 
-<p align="center">
 [Demo](https://huggingface.co/spaces/AlvaroEC/Transversor) · [Report a Bug](https://github.com/AlvaroEC/transversor/issues) · [Request a Feature](https://github.com/AlvaroEC/transversor/issues)
-</p>
 
 ---
 
