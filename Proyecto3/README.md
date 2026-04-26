@@ -10,15 +10,11 @@
   <img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue" alt="Hugging Face">
 </p>
 
-<h1 align="center">🌐 Transversor</h1>
+<h1>🌐 Transversor</h1>
 
-<p align="center">
   <b>Transversor</b> is an open-source document processing tool designed to bridge linguistic barriers by providing seamless translation of PDF documents. Unlike conventional translation tools that often struggle with document structure, Transversor focuses on generating clean, accessible output in both <b>Microsoft Word (.docx)</b> and <b>PDF</b> formats, ensuring that the essence and readability of your content remain intact across languages.
-</p>
 
-<p align="center">
   Whether you are handling academic papers, business reports, or technical manuals, Transversor provides a streamlined workflow that respects the integrity of the original source while delivering a nuanced translation experience.
-</p>
 
 > [!IMPORTANT]
 > **🌐 Transversor** is intended to assist in multilingual support for small-scale projects or personal use where professional translation may not be immediately accessible. It provides a practical solution for high-quality results in contexts where speed and accessibility are paramount, ensuring that language is never a barrier to the global reach of your content.
