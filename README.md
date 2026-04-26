@@ -20,8 +20,8 @@
 
 <p align="center">
   <a href="https://huggingface.co/spaces/AlvaroEC/Transversor"><b>Demo</b></a> • 
-  <a href="https://github.com/Alvaro-Escalona/Proyecto_Digitalizacion/issues/new?title=Bug:+[Escribe+aquí+el+error]"><img src="https://img.shields.io/badge/Report-a%20Bug-red?style=flat-square&logo=github"></a>
-  <a href="https://github.com/Alvaro-Escalona/Proyecto_Digitalizacion/issues/new?title=Feature:+[Escribe+aquí+tu+idea]"><img src="https://img.shields.io/badge/Request-a%20Feature-orange?style=flat-square&logo=github"></a>
+  <a href="https://github.com/Alvaro-Escalona/Proyecto_Digitalizacion/issues/new?title=Bug:+[Escribe+aquí+el+error]"></a>
+  <a href="https://github.com/Alvaro-Escalona/Proyecto_Digitalizacion/issues/new?title=Feature:+[Escribe+aquí+tu+idea]"></a>
 </p>
 </p>
 
