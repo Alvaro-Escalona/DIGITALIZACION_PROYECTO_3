@@ -25,10 +25,6 @@
   <a href="https://github.com/AlvaroEC/transversor/issues"><b>Request a Feature</b></a>
 </p>
 
----
-
----
-
 <p align="center">
   <strong>Advanced Document Transmutation & Multilingual Digitalization Tool.</strong>
 </p>
