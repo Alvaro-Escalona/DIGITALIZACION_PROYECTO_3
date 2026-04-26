@@ -31,7 +31,7 @@
 <br>
 🌐 [Live Demo](#-live-demo)  
 <br>
-❓ [Why Transversor?](#-why-transversor)  
+❓ [Why Transversor?](#why-transversor)  
 <br>
 ⚙️ [How Transversor Works](#️-how-transversor-works)  
 <br>
