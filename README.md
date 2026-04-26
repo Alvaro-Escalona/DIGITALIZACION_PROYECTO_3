@@ -5,9 +5,9 @@
 <h1 align="center">Transversor</h1>
 
 <p align="center">
-    [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/Alvaro-Escalona/Proyecto_Digitalizacion/pulls)
-    [![License: MIT](https://img.shields.io/badge/license-MIT-yellow.svg?style=flat-square)](https://github.com/Alvaro-Escalona/Proyecto_Digitalizacion/blob/main/LICENSE)
-    [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces)
+  <a href="https://github.com/Alvaro-Escalona/Proyecto_Digitalizacion/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square"></a>
+  <a href="https://github.com/Alvaro-Escalona/Proyecto_Digitalizacion/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-yellow.svg?style=flat-square"></a>
+  <a href="https://huggingface.co/spaces"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue"></a>
 </p>
 
 <h1>🌐 Transversor</h1>
