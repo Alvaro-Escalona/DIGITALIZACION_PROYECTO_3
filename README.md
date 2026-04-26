@@ -24,6 +24,21 @@
   <a href="https://github.com/Alvaro-Escalona/Proyecto_Digitalizacion/issues/new?title=Feature:+[Write+your+idea+here]"><b>Request a feature</b></a>
 </p>
 
+--
+
+## 📑 Table of Contents
+
+* [💡 Motivation](#-motivation)
+* [🌐 Live Demo](#-live-demo)
+* [Why Transversor?](#why-transversor)
+* [⚙️ How Transversor Works](#️-how-transversor-works)
+* [🚀 Getting Started](#-getting-started)
+* [🛠️ Customizability and Ideas for Extensions](#️-customizability-and-ideas-for-extensions)
+* [📸 Transversor at Work](#-transversor-at-work)
+* [⚖️ License](#️-license)
+* [🤝 Contributing](#-contributing)
+* [📚 References](#-references)
+
 ---
 
 ## 💡 Motivation
