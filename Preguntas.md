@@ -131,6 +131,21 @@ Para garantizar que el software sea un activo seguro y no un riesgo, propongo la
 * **Implementación de un Proxy de Traducción Corporativo:** En lugar de conectar directamente con APIs públicas, la empresa podría implementar un "puente" o proxy que anonimice los datos antes de enviarlos a traducir, eliminando nombres propios o cifras sensibles mediante técnicas de enmascaramiento de datos.
 * **Principio de Menor Privilegio:** Asegurar que el software se ejecute con los permisos mínimos necesarios en el sistema operativo. El programa no debería necesitar permisos de administrador para leer un PDF o escribir un DOCX en la carpeta `/docs`, limitando así el daño potencial en caso de que el software sea comprometido.
 
-Criterio 6h) Tratamiento de datos y análisis:
-¿Cómo se gestionan los datos en tu software y qué metodologías utilizas?
-¿Qué haces para garantizar la calidad y consistencia de los datos?
+# Criterio 6h) Tratamiento de datos y análisis
+
+## 1. ¿Cómo se gestionan los datos en tu software y qué metodologías utilizas?
+
+La gestión de datos en el **Transversor PDF** se basa en un flujo de procesamiento temporal y sin persistencia innecesaria, siguiendo metodologías de desarrollo ágil y estructurado:
+
+* **Arquitectura de Flujo de Datos (Pipeline):** El software utiliza una metodología de "entrada-proceso-salida". Los datos (el texto del PDF) se extraen mediante la librería `PyMuPDF`, se procesan en la memoria RAM del sistema y se envían de forma fragmentada a la API de traducción para evitar saturaciones. No se utilizan bases de datos externas para almacenar el contenido de los documentos, lo que garantiza que la información solo resida en el equipo del usuario mientras se procesa.
+* **Gestión de Archivos por Lotes (Batch Processing):** Para manejar grandes volúmenes de información, el software implementa una metodología de procesamiento por lotes. Esto permite que el usuario gestione múltiples archivos simultáneamente (ya sea mediante selección individual o carpetas completas), optimizando el uso de los hilos de ejecución del procesador.
+* **Uso de Estándares de Codificación:** Se utiliza exclusivamente **UTF-8** para el tratamiento de cadenas de texto. Esta es una decisión metodológica clave para asegurar que caracteres especiales de idiomas como el alemán, francés o chino se procesen y visualicen correctamente sin errores de codificación (encoding).
+
+## 2. ¿Qué haces para garantizar la calidad y consistencia de los datos?
+
+Para asegurar que la traducción y los documentos resultantes sean fiables y profesionales, el software implementa varios mecanismos de control de calidad:
+
+* **Limpieza y Normalización de Texto:** Antes de enviar el texto a traducir, el software realiza una fase de limpieza. Esto incluye la eliminación de saltos de línea huérfanos y la reconstrucción de párrafos que a menudo se rompen al extraer datos de un PDF. Esto garantiza que el motor de traducción reciba frases completas y con contexto, mejorando drásticamente la calidad del resultado final.
+* **Mantenimiento de la Estructura Documental:** Para garantizar la consistencia, el software intenta replicar la estructura original del PDF en el archivo de salida (PDF o DOCX). Al separar el contenido en bloques lógicos, se evita que el texto traducido se mezcle o pierda el orden lógico que tenía el documento original.
+* **Sistema de Logs y Control de Errores:** El software incluye una consola de eventos en tiempo real que informa al usuario sobre el estado de cada archivo. Si un documento falla por estar protegido con contraseña o estar corrupto, el sistema lo identifica y lo comunica, evitando que se generen datos inconsistentes o archivos vacíos.
+* **Validación de Formatos de Salida:** Mediante el uso de la librería `python-docx`, se asegura que los archivos generados cumplan estrictamente con los estándares de Microsoft Word, garantizando que el usuario siempre reciba un documento profesional, editable y consistente que pueda ser abierto en cualquier suite de ofimática.
