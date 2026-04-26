@@ -1,8 +1,4 @@
-# Fase 2: Análisis de utilidad y aplicación
-
-Analiza cómo el software desarrollado se adapta a las necesidades de una empresa ficticia o real, evaluando su utilidad, impacto y viabilidad a través de una serie de preguntas relacionadas con los indicadores de los criterios de evaluación.
-
-## Criterio 6a) Objetivos estratégicos
+# Criterio 6a) Objetivos estratégicos
 
 ### 1. ¿Qué objetivos estratégicos específicos de la empresa aborda tu software?
 
