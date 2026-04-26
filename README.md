@@ -28,16 +28,25 @@
 
 ## 📑 Table of Contents
 
-[💡 Motivation](#-motivation)  
-[🌐 Live Demo](#-live-demo)  
-[❓Why Transversor?](#why-transversor)  
-[⚙️ How Transversor Works](#️-how-transversor-works)  
-[🚀 Getting Started](#-getting-started)  
-[🛠️ Customizability and Ideas for Extensions](#️-customizability-and-ideas-for-extensions)  
-[📸 Transversor at Work](#-transversor-at-work)  
-[⚖️ License](#️-license)  
-[🤝 Contributing](#-contributing)  
-[📚 References](#-references)
+💡 [Motivation](#-motivation)  
+<br>
+🌐 [Live Demo](#-live-demo)  
+<br>
+❓ [Why Transversor?](#why-transversor)  
+<br>
+⚙️ [How Transversor Works](#️-how-transversor-works)  
+<br>
+🚀 [Getting Started](#-getting-started)  
+<br>
+🛠️ [Customizability and Ideas for Extensions](#️-customizability-and-ideas-for-extensions)  
+<br>
+📸 [Transversor at Work](#-transversor-at-work)  
+<br>
+⚖️ [License](#️-license)  
+<br>
+🤝 [Contributing](#-contributing)  
+<br>
+📚 [References](#-references)
 
 ---
 
