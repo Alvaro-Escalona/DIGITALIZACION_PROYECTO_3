@@ -24,8 +24,6 @@
   <a href="https://github.com/Alvaro-Escalona/Proyecto_Digitalizacion/issues/new?title=Feature:+[Write+your+idea+here]"><b>Request a feature</b></a>
 </p>
 
---
-
 ## 📑 Table of Contents
 
 💡 [Motivation](#-motivation)  
