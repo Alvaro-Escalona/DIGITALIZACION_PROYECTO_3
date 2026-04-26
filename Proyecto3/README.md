@@ -25,17 +25,6 @@
   <a href="https://github.com/AlvaroEC/transversor/issues"><b>Request a Feature</b></a>
 </p>
 
-<p align="center">
-  <strong>Advanced Document Transmutation & Multilingual Digitalization Tool.</strong>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Status-Active-brightgreen" alt="Status">
-  <img src="https://img.shields.io/badge/License-MIT-blue" alt="License">
-  <img src="https://img.shields.io/badge/Python-3.10+-yellow" alt="Python">
-  <img src="https://img.shields.io/badge/Platform-Cross--Platform-lightgrey" alt="Platform">
-</p>
-
 ---
 
 ## 💡 Motivation
