@@ -8,7 +8,7 @@ To ensure a smooth collaboration, please read the following guidelines.
 
 ## 📑 Table of Contents
 
-[Code of Conduct](#-code-of-conduct)<b>
+<a>[Code of Conduct](#-code-of-conduct)</a>
 [How Can I Contribute?](#-how-can-i-contribute)
 [Reporting Bugs](#-reporting-bugs)
 [Feature Requests](#-feature-requests)
