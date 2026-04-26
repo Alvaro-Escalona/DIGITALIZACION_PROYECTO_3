@@ -33,7 +33,7 @@
 <br>
 ❓ [Why Transversor?](#why-transversor)  
 <br>
-⚙️ [How Transversor Works](how-transversor-works)  
+⚙️ [How Transversor Works](#-how-transversor-works)  
 <br>
 🚀 [Getting Started](#getting-started)  
 <br>
