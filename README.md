@@ -33,19 +33,21 @@
 <br>
 ❓ [Why Transversor?](#why-transversor)  
 <br>
-⚙️ [How Transversor Works](#️-how-transversor-works)  
+⚙️ [How Transversor Works](how-transversor-works)  
 <br>
-🚀 [Getting Started](#-getting-Started-(Deployment))  
+🚀 [Getting Started](#getting-started)  
 <br>
-🛠️ [Usage Examples](#️-usage-Exampless)  
+🛠️ [Usage Examples](#usage-examples)  
 <br>
-📸 [Transversor at Work](#-transversor-at-work)  
+📸 [Transversor at Work](#transversor-at-work)  
 <br>
-⚖️ [License](#️-license)  
+⚖️ [License](#license)  
 <br>
-🤝 [Contributing](#-contributing)  
+🤝 [Contributing](#contributing)  
 <br>
-📚 [References](#-references)
+📚 [References](#references)
+
+---
 
 ---
 
