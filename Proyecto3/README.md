@@ -6,9 +6,9 @@
 
 # 🌐 Transversor
 <p align="center">
-![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
-![License MIT](https://img.shields.io/badge/license-MIT-yellow.svg)
-![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)
+  ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
+  ![License MIT](https://img.shields.io/badge/license-MIT-yellow.svg)
+  ![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)
 </p>
 
 
