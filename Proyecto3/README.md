@@ -34,6 +34,11 @@ The fastest way to experience **Transversor** is through our web-based demonstra
 > [!TIP]
 > **[🚀 Click here to launch the Online Demo](https://huggingface.co/spaces/AlvaroEC/Transversor)**
 
+### ⚠️ Translation Limit Notice
+To ensure high-quality service and stability using the free translation engine API:
+* **Character Constraint:** This version is optimized for text segments between **0 and 5,000 characters**.
+* **Large Documents:** For files exceeding this limit, the application automatically segments the text to provide the best possible translation within API boundaries.
+
 ---
 
 ##  Why Transversor❓
