@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://github.com/Alvaro-Escalona/Proyecto_Digitalizacion/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square"></a>
   <a href="https://github.com/Alvaro-Escalona/Proyecto_Digitalizacion/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-yellow.svg?style=flat-square"></a>
-  <a [href="https://huggingface.co/spaces](https://huggingface.co/spaces/AlvaroEC/Transversor)"></a>
+ <a href="https://huggingface.co/spaces/AlvaroEC/Transversor"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue"></a>
 </p>
 
 <h1>🌐 Transversor</h1>
