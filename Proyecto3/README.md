@@ -16,7 +16,7 @@
 
   Whether you are handling academic papers, business reports, or technical manuals, Transversor provides a streamlined workflow that respects the integrity of the original source while delivering a nuanced translation experience.
 
-> [!IMPORTANT] **🌐 Transversor** is intended to assist in multilingual support for small-scale projects or personal use where professional translation may not be immediately accessible. It provides a practical solution for high-quality results in contexts where speed and accessibility are paramount, ensuring that language is never a barrier to the global reach of your content.
+> !IMPORTANT **🌐 Transversor** is intended to assist in multilingual support for small-scale projects or personal use where professional translation may not be immediately accessible. It provides a practical solution for high-quality results in contexts where speed and accessibility are paramount, ensuring that language is never a barrier to the global reach of your content.
 
 <p align="center">
   <a href="https://huggingface.co/spaces/AlvaroEC/Transversor"><b>Demo</b></a> • 
