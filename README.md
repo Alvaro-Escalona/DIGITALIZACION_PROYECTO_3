@@ -35,9 +35,9 @@
 <br>
 ⚙️ [How Transversor Works](#️-how-transversor-works)  
 <br>
-🚀 [Getting Started](#-getting-started)  
+🚀 [Getting Started](#-Getting-Started-(Deployment))  
 <br>
-🛠️ [Customizability and Ideas for Extensions](#️-customizability-and-ideas-for-extensions)  
+🛠️ [Customizability and Ideas for Extensions](#️-Usage-Exampless)  
 <br>
 📸 [Transversor at Work](#-transversor-at-work)  
 <br>
