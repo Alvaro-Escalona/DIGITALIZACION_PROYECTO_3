@@ -33,21 +33,21 @@
 <br>
 ❓ [Why Transversor?](#why-transversor)  
 <br>
-⚙️ [How Transversor Works](#how-transversor-works)  
+⚙️ [How Transversor Works](#️-how-transversor-works)  
 <br>
-🚀 [Getting Started](#getting-started)  
+✨ [Key Features](#️-key)  
 <br>
-🛠️ [Usage Examples](#usage-examples)  
+🚀 [Getting Started](#getting)  
 <br>
-📸 [Transversor at Work](#transversor-at-work)  
+🛠️ [Usage Examples](#️-usage)  
 <br>
-⚖️ [License](#license)  
+📸 [Transversor at Work](#-transversor-at-work)  
+<br>
+⚖️ [License](#️-license)  
 <br>
 🤝 [Contributing](#contributing)  
 <br>
-📚 [References](#references)
-
----
+📚 [Strategic Objectives](#-Strategic-Objectives)
 
 ---
 
@@ -99,6 +99,7 @@ The "magic" behind the transmutation process follows a robust 4-step pipeline:
 
 ---
 
+<a name="key"></a>
 ## ✨ Key Features
 
 * **🌐 Intelligent Translation:** Powered by `deep-translator` with support for Google Translate API.
@@ -109,7 +110,7 @@ The "magic" behind the transmutation process follows a robust 4-step pipeline:
 * **📄 Professional Output:** Exports to both editable `.docx` and read-only `.pdf` formats.
 
 ---
-
+<a name="getting"></a>
 ## 🚀 Getting Started (Deployment)
 
 ### Prerequisites
@@ -143,6 +144,7 @@ Linux: Ensure you have tk-dev installed for the graphical interface to render co
 
 ---
 
+<a name="usage"></a>
 ## 🛠️ Usage Examples
 
 ### 1. Basic Translation
@@ -155,9 +157,6 @@ Linux: Ensure you have tk-dev installed for the graphical interface to render co
 | :---: | :---: | :---: |
 | <img width="1392" height="910" alt="1" src="https://github.com/user-attachments/assets/d73e52c3-42ba-4820-937c-e0f02dde8243" width="200"> | <img width="1398" height="907" alt="Captura de pantalla 2026-04-25 194539" src="https://github.com/user-attachments/assets/6a29a717-5b94-431b-bc11-f5e6664672ca"  width="200"> | <img width="1396" height="910" alt="Captura de pantalla 2026-04-25 194621" src="https://github.com/user-attachments/assets/b41c3b04-9847-4100-8f6b-aa176a61ccd5"  width="200">
 
-
-
-
 ### 2. Selective Processing
 1. **Visual Selection:** Double-click any file in the list to open the visual page editor.
 2. **Filter Content:** Select only the specific pages (e.g., technical specs) you need to translate.
@@ -166,9 +165,6 @@ Linux: Ensure you have tk-dev installed for the graphical interface to render co
 | Step 1: Load | Step 2: Select Pages | Step 3: Result |
 | :---: | :---: | :---: |
 | <img width="1392" height="910" alt="1" src="https://github.com/user-attachments/assets/d73e52c3-42ba-4820-937c-e0f02dde8243" width="200"> | <img width="1398" height="907" alt="Captura de pantalla 2026-04-25 190025" src="https://github.com/user-attachments/assets/d5353c7d-781c-4b0f-8d31-a2991a3a46ca" width="200"> | <img width="1397" height="911" alt="Captura de pantalla 2026-04-25 185932" src="https://github.com/user-attachments/assets/cb35c91e-7aac-4aa0-8223-1bc1794c61ca" width="200"> 
-
-
-
 
 ---
 
