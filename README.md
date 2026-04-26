@@ -30,7 +30,7 @@
 
 * [💡 Motivation](#-motivation)
 * [🌐 Live Demo](#-live-demo)
-* [Why Transversor?](#why-transversor)
+* [❓Why Transversor?](#why-transversor)
 * [⚙️ How Transversor Works](#️-how-transversor-works)
 * [🚀 Getting Started](#-getting-started)
 * [🛠️ Customizability and Ideas for Extensions](#️-customizability-and-ideas-for-extensions)
