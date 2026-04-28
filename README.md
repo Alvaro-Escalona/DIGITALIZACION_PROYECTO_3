@@ -35,18 +35,18 @@
 <br>
 ⚙️ [How Transversor Works](#️-how-transversor-works)  
 <br>
-✨ [Key Features](#️key-features)  
+
 <br>
 🚀 [Getting Started](#getting)  
 <br>
-🛠️ [Usage Examples](#️-usage)  
+🛠️ [Usage Examples](#️-usage-examples)  
 <br>
-🏗️ [Architecture & Security](#-architecture)  
+🏗️ [Architecture & Security](#architecture-security)  
 <br>
-🎯 [Strategic Objectives](#objectives)  
+🎯 [Strategic Objectives](#strategic-objetives)  
 <br>
 ⚖️ [License](#️-license)  
-<br>
+
 
 ---
 
@@ -98,7 +98,7 @@ The "magic" behind the transmutation process follows a robust 4-step pipeline:
 
 ---
 
-<a name="key- features"></a>
+<a name="llave"></a>
 ## ✨ Key Features
 
 * **🌐 Intelligent Translation:** Powered by `deep-translator` with support for Google Translate API.
@@ -143,7 +143,7 @@ Linux: Ensure you have tk-dev installed for the graphical interface to render co
 
 ---
 
-<a name="usage"></a>
+<a name="usage examples"></a>
 ## 🛠️ Usage Examples
 
 ### 1. Basic Translation
@@ -167,6 +167,7 @@ Linux: Ensure you have tk-dev installed for the graphical interface to render co
 
 ---
 
+<a name="architecture-security"></a>
 ## 🏗️ Architecture & Security
 
 This project is built with a focus on **Data Integrity** and **Privacy**:
@@ -178,7 +179,7 @@ This project is built with a focus on **Data Integrity** and **Privacy**:
 
 ---
 
-<a name="objetives"></a>
+<a name="strategic-objetives"></a>
 ## 🎯 Strategic Objectives
 
 As part of the organization's **Digital Transformation** roadmap, this project fulfills the following:
