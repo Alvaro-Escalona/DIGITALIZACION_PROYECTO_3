@@ -70,4 +70,4 @@ If you are looking for ideas to contribute, these are the current high-priority 
 4. **OCR Integration**: Implement `pytesseract` to allow translation of scanned PDFs (images).
 
 ---
-*This document is reviewed periodically. Last updated: April 2026.* Developed by [AlvaroEC](https://github.com/AlvaroEC)
+*This document is reviewed periodically. Last updated: April 2026.* Developed by [AlvaroEC](https://github.com/Alvaro-Escalona)
