@@ -35,19 +35,18 @@
 <br>
 ⚙️ [How Transversor Works](#️-how-transversor-works)  
 <br>
-✨ [Key Features](#️-key)  
+✨ [Key Features](#️key-features)  
 <br>
 🚀 [Getting Started](#getting)  
 <br>
 🛠️ [Usage Examples](#️-usage)  
 <br>
-📸 [Transversor at Work](#-transversor-at-work)  
+🏗️ [Architecture & Security](#-architecture)  
+<br>
+🎯 [Strategic Objectives](#objectives)  
 <br>
 ⚖️ [License](#️-license)  
 <br>
-🤝 [Contributing](#contributing)  
-<br>
-📚 [Strategic Objectives](#-Strategic-Objectives)
 
 ---
 
@@ -99,7 +98,7 @@ The "magic" behind the transmutation process follows a robust 4-step pipeline:
 
 ---
 
-<a name="key"></a>
+<a name="key- features"></a>
 ## ✨ Key Features
 
 * **🌐 Intelligent Translation:** Powered by `deep-translator` with support for Google Translate API.
@@ -179,6 +178,7 @@ This project is built with a focus on **Data Integrity** and **Privacy**:
 
 ---
 
+<a name="objetives"></a>
 ## 🎯 Strategic Objectives
 
 As part of the organization's **Digital Transformation** roadmap, this project fulfills the following:
